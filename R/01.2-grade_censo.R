@@ -12,7 +12,7 @@ source('./R/fun/setup.R')
 # função do geobr para dissolver polígonos
 source("R/fun/dissolve_polygons.R")
 options(future.availableCores.methods = "mc.cores")
-options(mc.cores = 10)
+options(mc.cores = 4)
 
 
 ### Funcao
